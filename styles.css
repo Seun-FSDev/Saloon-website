@@ -129,7 +129,8 @@ a {
 .mobile-nav {
   display: none;
   flex-direction: column;
-  background: #f9f9f9;
+ /* background: #f9f9f9;*/
+  background-color: rgb(234, 184, 93, 0.85);
   position: fixed;
   top: 70px;
   left: 0;
