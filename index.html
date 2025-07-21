@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Enhanced Reuben Wood Nav</title>
+  <title>Buzzy Hair and Beauty Salon</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header" id="site-header">
     <div class="header-left">
-      <a href="#" class="logo">REUBEN WOOD</a>
+      <a href="#" class="logo">Buzzy Hair and Beauty Salon</a>
       <nav class="main-nav">
         <a href="#home">Home</a>
         <a href="#services">Services</a>
         <a href="#our-work">Our Work</a>
-        <a href="#">Reuben’s Work</a>
+        <a href="#location">Visit Us</a>
       </nav>
     </div>
     <div class="header-right">
@@ -30,22 +30,22 @@
     <a href="#home">Home</a>
     <a href="#services">Services</a>
     <a href="#our-work">Our Work</a>
-    <a href="#">Reuben’s Work</a>
+    <a href="#location">Visit Us</a>
     <a href="tel:01618326363">Call</a>
     <a href="#booking">Book</a>
   </nav>
 <main></main>
   <section id="home" style="padding: 4rem 2rem; text-align: center; max-width: 900px; margin: auto;">
-  <h2>Welcome to Reuben Wood Hairdressing</h2>
+  <h2>Welcome to Buzzy Hair and Beauty Salon</h2>
   <p style="margin-top: 1rem; font-size: 1.1rem; line-height: 1.6;">
-    At Reuben Wood, we redefine hair artistry in the heart of the city. Our award-winning stylists and colorists combine creative vision with technical expertise to deliver a tailored experience that celebrates your individuality.
+    At Buzzy Hair and Beauty Salon, we redefine hair artistry in the heart of the city. Our award-winning stylists and colorists combine creative vision with technical expertise to deliver a tailored experience that celebrates your individuality.
   </p>
   <p style="margin-top: 1rem; font-size: 1rem; color: #666;">
     Whether you're seeking a bold transformation or a classic refresh, our team will ensure you leave feeling confident, radiant, and completely renewed.
   </p>
 </section>
 
-<section id="services" style="padding: 4rem 2rem; background-color: #fafafa; max-width: 1000px; margin: auto;">
+<section id="services" style="padding: 4rem 2rem; background-color: rgb(234, 184, 93); max-width: 1000px; margin: auto;">
   <h2 style="text-align: center;">Our Services</h2>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem;">
     <div>
@@ -57,11 +57,15 @@
       <p>From balayage to platinum blonde, our expert colorists create vibrant, dimensional looks using top-tier color systems.</p>
     </div>
     <div>
-      <h3>Styling & Blow Dry</h3>
+      <h3>Wash & Blow Dry</h3>
       <p>Be red-carpet ready with our professional blow-dry and event styling services—perfect for any special occasion.</p>
     </div>
     <div>
       <h3>Treatments</h3>
+      <p>Nourish and repair with deep conditioning and scalp therapy treatments designed for every hair type.</p>
+    </div>
+    <div>
+      <h3>Male and Female Braids</h3>
       <p>Nourish and repair with deep conditioning and scalp therapy treatments designed for every hair type.</p>
     </div>
   </div>
@@ -71,15 +75,24 @@
   <h2 style="text-align: center;">Our Work</h2>
   <p style="text-align: center; margin-top: 1rem;">See how our creativity and craft come to life through our clients.</p>
   
+  <!--
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
     <div style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center;">Image 1</div>
     <div style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center;">Image 2</div>
     <div style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center;">Image 3</div>
     <div style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center;">Image 4</div>
   </div>
+-->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+    <img src="images/IMG_0153.PNG" alt="Client haircut 1" style="width: 100%; height: 500px; border-radius: 8px;">
+    <img src="images/IMG_0153.PNG" alt="Client haircut 2" style="width: 100%; height: 500px; border-radius: 8px;">
+    <img src="images/IMG_0153.PNG" alt="Client haircut 3" style="width: 100%; height: 500px; border-radius: 8px;">
+    <img src="images/IMG_0153.PNG" alt="Client haircut 4" style="width: 100%; height: 500px; border-radius: 8px;">
+  </div>
+
 </section>
 
-<section id="booking" style="padding: 4rem 2rem; background-color: #fff; max-width: 700px; margin: auto;">
+<section id="booking" style="padding: 4rem 2rem; background-color: rgb(234, 184, 93); max-width: 700px; margin: auto;">
   <h2 style="text-align: center;">Book an Appointment</h2>
   <form id="booking-form" style="margin-top: 2rem;">
     <div class="form-group">
@@ -120,7 +133,43 @@
 
     <button type="submit" class="btn-book" style="margin-top: 1rem;">Submit Booking</button>
   </form>
+
 </section>
+
+<section id="location" style="padding: 4rem 2rem; background-color: #f9f9f9;">
+  <h2 style="text-align: center;">Visit Our Salon</h2>
+  <p style="text-align: center; margin-bottom: 2rem;">
+    Find us in the heart of Manchester’s Northern Quarter.
+  </p>
+
+  <div class="location-flex">
+    <!-- Storefront Image -->
+    <div class="location-item">
+      <img src="images/IMG_0152.PNG" alt="Our Storefront">
+    </div>
+
+    <!-- Google Map -->
+    <div class="location-item">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2375.368846640424!2d-2.1806362235477903!3d53.46186786607402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb15eb2909b8b%3A0xada1133cce1fbc16!2sBuzzy%20hair%20%26%20beauty%20salon!5e0!3m2!1sen!2suk!4v1753083336811!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <!-- Hours & Directions -->
+  <div class="location-info">
+    <h3>Opening Hours</h3>
+    <ul>
+      <li><strong>Mon – Sunday:</strong> 10:00 AM – 7:00 PM</li>
+      <!--<li><strong>Saturday:</strong> 9:00 AM – 5:00 PM</li>
+      <li><strong>Sunday:</strong> Closed</li>-->
+    </ul>
+    <a href="https://maps.app.goo.gl/akzG5fBbH7jpS7cH7"
+       target="_blank" class="btn-direction">
+      📍 Get Directions
+    </a>
+  </div>
+</section>
+
+  
 
 
 </main>
