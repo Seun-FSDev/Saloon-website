@@ -41,7 +41,7 @@ a {
   top: 40px;
   left: 0;
   right: 0;
-  background-color: rgb(234, 184, 93);
+  background-color: rgb(234, 184, 93, 0.85);
   z-index: 1000;
   display: flex;
   justify-content: space-between;
